@@ -1,56 +1,88 @@
 const Icons = (icon) => {
     switch (icon) {
-        case '1' || '2' || '3':
-            icon='icons/wi-cloudy.svg'
-            console.log('Cloudy')
-            break;    
-        case '45' || '48':
+        case '1':
+            icon='icons/wi-day-cloudy.svg'
+            break; 
+        case '2':
+            icon='icons/wi-day-cloudy.svg'
+            break;
+        case '3':
+            icon='icons/wi-day-cloudy.svg'
+            break;               
+        case '45':
             icon='icons/wi-day-fog.svg'
-            console.log('Fog');
             break;
-        case '51' || '53' || '55':
-            icon='icons/wi-day-hail.svg'
-            console.log('Drizzle');
-            break;                        
-        case '56' || '57':
-            icon='icons/wi-night-alt-sleet.svg'
-            console.log('Freezing Drizzle');
-            break;
-        case '61' || '63' || '65':
-            icon='icons/wi-rain-mix.svg'
-            console.log('Rain');
-            break;  
-        case '66' || '67':
-            icon='icons/wi-rain.svg'
-            console.log('Freezing Rain');
-            break;  
-        case '71' || '73' || '75':
-            icon='icons/wi-night-snow.svg'
-            console.log('Snow Fall ');
+        case '48':
+            icon='icons/wi-day-fog.svg'
             break;    
+        case '51':
+            icon='icons/wi-day-hail.svg'
+            break;  
+        case '53':
+            icon='icons/wi-day-hail.svg'
+            break; 
+        case '55':
+            icon='icons/wi-day-hail.svg'
+            break;                               
+        case '56':
+            icon='icons/wi-night-alt-sleet.svg'
+            break;
+        case '57':
+            icon='icons/wi-night-alt-sleet.svg'
+            break;     
+        case '61':
+            icon='icons/wi-rain-mix.svg'
+            break;  
+        case '63':
+            icon='icons/wi-rain-mix.svg'
+            break;
+        case '65':
+            icon='icons/wi-rain-mix.svg'
+            break;        
+        case '66':
+            icon='icons/wi-rain.svg'
+            break; 
+        case '67':
+            icon='icons/wi-rain.svg'
+            break;     
+        case '71':
+            icon='icons/wi-night-snow.svg'
+            break;    
+        case '73':
+            icon='icons/wi-night-snow.svg'
+            break; 
+        case '75':
+            icon='icons/wi-night-snow.svg'
+            break;        
         case '77':
             icon='icons/wi-snow.svg'
-            console.log('Snow Grains');
             break;   
-        case '80' || '81' || '82':
+        case '80':
             icon='icons/wi-day-showers.svg'
-            console.log('Rain Showers');
-            break;    
-        case '85' || '86':
+            break; 
+        case '81':
+            icon='icons/wi-day-showers.svg'
+            break;  
+        case '82':
+            icon='icons/wi-day-showers.svg'
+            break;           
+        case '85':
             icon='icons/wi-snow-wind.svg'
-            console.log('Snow Showers');
             break;
+        case '86':
+            icon='icons/wi-snow-wind.svg'
+            break;    
         case '95':
             icon='icons/wi-thunderstorm.svg'
-            console.log('Thunderstorm');
             break;
-        case '96' ||'99':
+        case '96':
             icon='icons/wi-night-thunderstorm.svg'
-            console.log('ThunderstormWith');
-            break;          
+            break;  
+        case '99':
+            icon='icons/wi-night-thunderstorm.svg'
+            break;            
         default:
-            icon='icons/wi-day-sunny.svg'
-            console.log('Clean');    
+            icon='icons/wi-day-sunny.svg'   
     }
 return icon
 }
